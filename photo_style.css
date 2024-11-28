@@ -1,0 +1,91 @@
+/* General Styles for Photography Page */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background: #121212;
+    color: #fff;
+  }
+  
+  header nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background: rgba(0, 0, 0, 0.7);
+  }
+  
+  header nav a {
+    text-decoration: none;
+    color: #03a9f4;
+    margin: 0 10px;
+  }
+  
+  header nav a:hover {
+    color: #1e88e5;
+  }
+  
+  /* Hero Section */
+  #photography-hero {
+    text-align: center;
+    padding: 100px 20px;
+    background: url(hero_image.jpeg) no-repeat center center fixed;
+    background-size:cover;
+    color: #fff;
+    height: 80vh;
+  }
+  
+  #photography-hero h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+  }
+  
+  #photography-hero p {
+    font-size: 1.5rem;
+  }
+  
+  /* Gallery Section */
+  #gallery {
+    text-align: center;
+    padding: 50px 20px;
+  }
+  
+  #gallery h2 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    color: #03a9f4;
+  }
+  
+  .gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+  }
+  
+  .gallery-grid img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .gallery-grid img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.8);
+  }
+  
+  /* Footer */
+  footer {
+    background: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    text-align: center;
+  }
+  
+  footer a {
+    color: #03a9f4;
+    text-decoration: none;
+  }
+  
+  footer a:hover {
+    color: #1e88e5;
+  }
+  
